@@ -1,0 +1,15 @@
+{
+  "name": "vite-mpa-template",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && ./handleDist.mjs"
+  },
+  "devDependencies": {
+    "readdirp": "^3.6.0",
+    "sass": "^1.51.0",
+    "vite": "^2.9.5",
+    "vite-plugin-nunjucks": "^0.1.10"
+  }
+}
